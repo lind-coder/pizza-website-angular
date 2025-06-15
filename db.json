@@ -1,0 +1,25 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "name": "Margherita",
+      "description": "Pomodoro, mozzarella, basilico",
+      "price": 6.50,
+      "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 2,
+      "name": "Marinara",
+      "description": "Pomodoro, aglio, origano",
+      "price": 5.50,
+      "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 3,
+      "name": "Quattro Formaggi",
+      "description": "Mozzarella, gorgonzola, fontina, parmigiano",
+      "price": 8.50,
+      "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    }
+  ]
+} 

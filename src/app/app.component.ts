@@ -1,16 +1,21 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [RouterOutlet, NavbarComponent],
   template: `
-    <h1>Welcome to {{title}}!</h1>
-
-    <router-outlet />
+    <app-navbar></app-navbar>
+    <main>
+      <router-outlet></router-outlet>
+    </main>
   `,
-  styles: [],
+  styles: [`
+    main {
+      min-height: calc(100vh - 56px);
+    }
+  `]
 })
-export class AppComponent {
-  title = 'Pizza-website';
-}
+export class AppComponent {}
